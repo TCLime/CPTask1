@@ -5,8 +5,9 @@ using namespace std;
 
 int main()
 {
+	setlocale(LC_ALL, "ru")
 	int a, b;
-	cout << "Enter 2 numbers: ";
+	cout << "Введите 2 числа: ";
 	cin >> a >> b;
-	cout << "Sum: "<< (a + b);
+	cout << "Сумма: "<< (a + b);
 }
